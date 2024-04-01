@@ -15,7 +15,7 @@
  */
 
 apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.xiaoge.bintray'
+group='com.github.xiaoge-1996'
 
 group = GROUP
 version = VERSION_NAME
