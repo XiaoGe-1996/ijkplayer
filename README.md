@@ -14,22 +14,23 @@
            ...
            maven { url "https://jitpack.io" }
        }
-    }
+   }
 
 
    Step 2:
    dependencies {
-    # required, enough for most devices.
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-java:v1.0.0'
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-armv7a:v1.0.0'
 
-    # Other ABIs: optional
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-armv5:v1.0.0'
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-arm64:v1.0.0'
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-x86:v1.0.0'
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-x86_64:v1.0.0'
+       # required, enough for most devices.
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-java:v1.0.0'
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-armv7a:v1.0.0'
 
-    # ExoPlayer as IMediaPlayer: optional, experimental
-    implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-exo:v1.0.0'
-	}
+       # Other ABIs: optional
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-armv5:v1.0.0'
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-arm64:v1.0.0'
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-x86:v1.0.0'
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-x86_64:v1.0.0'
+
+       # ExoPlayer as IMediaPlayer: optional, experimental
+       implementation 'com.github.XiaoGe-1996.ijkplayer:ijkplayer-exo:v1.0.0'
+   }
 ```
