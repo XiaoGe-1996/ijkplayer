@@ -2,9 +2,7 @@
 
 buildscript {
     repositories {
-        maven { url 'https://mirrors.tencent.com/repository/maven/tencent_public' }
-        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public"}
-        maven { url "https://mirrors.tencent.com/repository/maven/liteavsdk" }
+        
         maven { url "https://mirrors.tencent.com/nexus/repository/maven-public" }
         maven { url 'https://mirrors.tencent.com/repository/maven/tencent_public_snapshots' }
         google()
@@ -23,9 +21,7 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public"}
-        maven { url "https://mirrors.tencent.com/repository/maven/liteavsdk" }
-        maven { url "https://mirrors.tencent.com/nexus/repository/maven-public/" }
+
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
         maven { url 'https://jitpack.io' }
