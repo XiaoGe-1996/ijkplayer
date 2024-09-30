@@ -1,7 +1,7 @@
 # ijkplayer
 
 #### 项目简介
-重新编译ijkplayer实现的可以播放rtsp视频流
+重新编译ijkplayer实现的可以播放rtsp视频流；支持截图，视频录制功能；
 
 
 #### 使用方式
