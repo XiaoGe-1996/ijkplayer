@@ -143,6 +143,27 @@ public class MediaPlayerProxy implements IMediaPlayer {
     }
 
     @Override
+    public int startRecord(String recordVideoPath) {
+        return mBackEndMediaPlayer.startRecord(recordVideoPath);
+    }
+
+    @Override
+    public int isRecord() {
+        return mBackEndMediaPlayer.isRecord();
+    }
+
+    @Override
+    public int stopRecord() {
+        return mBackEndMediaPlayer.stopRecord();
+    }
+
+
+    @Override
+    public int getCurrentFrame(String saveFile) {
+        return mBackEndMediaPlayer.getCurrentFrame(saveFile);
+    }
+
+    @Override
     public void release() {
         mBackEndMediaPlayer.release();
     }

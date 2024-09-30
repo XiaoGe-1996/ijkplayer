@@ -188,8 +188,8 @@
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/pipeline/../../pipeline/../ff_ffpipenode.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/pipeline/../../ff_ffplay.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/pipeline/../../ff_fferror.h \
- /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/android/ijksdl_android_jni.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h \
+ /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/android/ijksdl_android_jni.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_allclasses.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_allclasses.include.h \
@@ -591,9 +591,9 @@
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/pipeline/../../ff_fferror.h:
 
-/Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/android/ijksdl_android_jni.h:
-
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h:
+
+/Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/android/ijksdl_android_jni.h:
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_allclasses.h:
 

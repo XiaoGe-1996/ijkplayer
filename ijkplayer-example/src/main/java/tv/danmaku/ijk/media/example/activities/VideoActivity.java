@@ -83,40 +83,40 @@ public class VideoActivity extends AppCompatActivity implements TracksFragment.I
         mSettings = new Settings(this);
 
         // handle arguments
-        mVideoPath = getIntent().getStringExtra("videoPath");
+//        mVideoPath = getIntent().getStringExtra("videoPath");
 
-        Intent intent = getIntent();
-        String intentAction = intent.getAction();
-        if (!TextUtils.isEmpty(intentAction)) {
-            if (intentAction.equals(Intent.ACTION_VIEW)) {
-                mVideoPath = intent.getDataString();
-            } else if (intentAction.equals(Intent.ACTION_SEND)) {
-                mVideoUri = intent.getParcelableExtra(Intent.EXTRA_STREAM);
-                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-                    String scheme = mVideoUri.getScheme();
-                    if (TextUtils.isEmpty(scheme)) {
-                        Log.e(TAG, "Null unknown scheme\n");
-                        finish();
-                        return;
-                    }
-                    if (scheme.equals(ContentResolver.SCHEME_ANDROID_RESOURCE)) {
-                        mVideoPath = mVideoUri.getPath();
-                    } else if (scheme.equals(ContentResolver.SCHEME_CONTENT)) {
-                        Log.e(TAG, "Can not resolve content below Android-ICS\n");
-                        finish();
-                        return;
-                    } else {
-                        Log.e(TAG, "Unknown scheme " + scheme + "\n");
-                        finish();
-                        return;
-                    }
-                }
-            }
-        }
-
-        if (!TextUtils.isEmpty(mVideoPath)) {
-            new RecentMediaStorage(this).saveUrlAsync(mVideoPath);
-        }
+//        Intent intent = getIntent();
+//        String intentAction = intent.getAction();
+//        if (!TextUtils.isEmpty(intentAction)) {
+//            if (intentAction.equals(Intent.ACTION_VIEW)) {
+//                mVideoPath = intent.getDataString();
+//            } else if (intentAction.equals(Intent.ACTION_SEND)) {
+//                mVideoUri = intent.getParcelableExtra(Intent.EXTRA_STREAM);
+//                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+//                    String scheme = mVideoUri.getScheme();
+//                    if (TextUtils.isEmpty(scheme)) {
+//                        Log.e(TAG, "Null unknown scheme\n");
+//                        finish();
+//                        return;
+//                    }
+//                    if (scheme.equals(ContentResolver.SCHEME_ANDROID_RESOURCE)) {
+//                        mVideoPath = mVideoUri.getPath();
+//                    } else if (scheme.equals(ContentResolver.SCHEME_CONTENT)) {
+//                        Log.e(TAG, "Can not resolve content below Android-ICS\n");
+//                        finish();
+//                        return;
+//                    } else {
+//                        Log.e(TAG, "Unknown scheme " + scheme + "\n");
+//                        finish();
+//                        return;
+//                    }
+//                }
+//            }
+//        }
+//
+//        if (!TextUtils.isEmpty(mVideoPath)) {
+//            new RecentMediaStorage(this).saveUrlAsync(mVideoPath);
+//        }
 
         // init UI
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -134,22 +134,23 @@ public class VideoActivity extends AppCompatActivity implements TracksFragment.I
         mDrawerLayout.setScrimColor(Color.TRANSPARENT);
 
         // init player
-        IjkMediaPlayer.loadLibrariesOnce(null);
-        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
+//        IjkMediaPlayer.loadLibrariesOnce(null);
+//        IjkMediaPlayer.native_profileBegin("libijkplayer.so");
 
         mVideoView = (IjkVideoView) findViewById(R.id.video_view);
-        mVideoView.setMediaController(mMediaController);
+//        mVideoView.setMediaController(mMediaController);
         mVideoView.setHudView(mHudView);
         // prefer mVideoPath
-        if (mVideoPath != null)
-            mVideoView.setVideoPath(mVideoPath);
-        else if (mVideoUri != null)
-            mVideoView.setVideoURI(mVideoUri);
-        else {
-            Log.e(TAG, "Null Data Source\n");
-            finish();
-            return;
-        }
+//        if (mVideoPath != null)
+//            mVideoView.setVideoPath(mVideoPath);
+//        else if (mVideoUri != null)
+//            mVideoView.setVideoURI(mVideoUri);
+//        else {
+//            Log.e(TAG, "Null Data Source\n");
+//            finish();
+//            return;
+//        }
+        mVideoView.setVideoPath("rtsp://192.168.8.199/tech-exam/f001ab6283531400cf298281f957e15c");
         mVideoView.start();
     }
 
@@ -171,7 +172,7 @@ public class VideoActivity extends AppCompatActivity implements TracksFragment.I
         } else {
             mVideoView.enterBackground();
         }
-        IjkMediaPlayer.native_profileEnd();
+//        IjkMediaPlayer.native_profileEnd();
     }
 
     @Override

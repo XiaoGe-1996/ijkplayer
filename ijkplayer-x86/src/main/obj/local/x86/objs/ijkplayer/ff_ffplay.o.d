@@ -179,6 +179,8 @@
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/ijksdl_mutex.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-x86/src/main/jni/ijkmedia/ijkplayer/ijkmeta.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-x86/src/main/jni/ijkmedia/ijkplayer/ff_fferror.h \
+ /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h \
+ /Users/xiaoge/Desktop/Work/Android/NDK/ndk_r10e/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/jni.h \
  /Users/xiaoge/Desktop/Work/Android/NDK/ndk_r10e/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/fcntl.h \
  /Users/xiaoge/Desktop/Work/Android/NDK/ndk_r10e/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/linux/fcntl.h \
  /Users/xiaoge/Desktop/Work/Android/NDK/ndk_r10e/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/asm/fcntl.h \
@@ -557,6 +559,10 @@
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-x86/src/main/jni/ijkmedia/ijkplayer/ijkmeta.h:
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-x86/src/main/jni/ijkmedia/ijkplayer/ff_fferror.h:
+
+/Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h:
+
+/Users/xiaoge/Desktop/Work/Android/NDK/ndk_r10e/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/jni.h:
 
 /Users/xiaoge/Desktop/Work/Android/NDK/ndk_r10e/android-ndk-r10e/platforms/android-9/arch-x86/usr/include/fcntl.h:
 

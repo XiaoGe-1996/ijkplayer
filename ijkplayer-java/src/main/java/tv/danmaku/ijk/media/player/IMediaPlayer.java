@@ -107,6 +107,14 @@ public interface IMediaPlayer {
 
     long getDuration();
 
+    int isRecord();
+
+    int startRecord(String recordVideoPath);
+
+    int stopRecord();
+
+    int getCurrentFrame(String saveFile);
+
     void release();
 
     void reset();
@@ -212,4 +220,7 @@ public interface IMediaPlayer {
      * AndroidMediaPlayer: M:
      */
     void setDataSource(IMediaDataSource mediaDataSource);
+
+
+
 }

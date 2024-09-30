@@ -1284,4 +1284,18 @@ public final class IjkMediaPlayer extends AbstractMediaPlayer {
     public static native void native_profileBegin(String libName);
     public static native void native_profileEnd();
     public static native void native_setLogLevel(int level);
+
+    @Override
+    public native int startRecord(String recordVideoPath);
+
+    @Override
+    public native int stopRecord();
+
+    // 如果是在录像中返回的值是 1
+    @Override
+    public native int isRecord();
+
+    @Override
+    public native int getCurrentFrame(String saveFile);
+
 }

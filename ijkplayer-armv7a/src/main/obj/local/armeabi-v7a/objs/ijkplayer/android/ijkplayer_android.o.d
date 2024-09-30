@@ -191,6 +191,7 @@
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ff_ffpipenode.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/ijksdl_mutex.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ff_fferror.h \
+ /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ijkplayer_internal.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ff_ffplay.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ijkplayer.h \
@@ -586,6 +587,8 @@
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijksdl/ijksdl_mutex.h:
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ff_fferror.h:
+
+/Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/ijkmedia/ijkj4a/j4a/j4a_base.h:
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/ijkplayer/ijkplayer-armv7a/src/main/jni/ijkmedia/ijkplayer/android/../ijkplayer_internal.h:
 

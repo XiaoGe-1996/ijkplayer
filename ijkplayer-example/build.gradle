@@ -12,14 +12,22 @@ android {
     }
     defaultConfig {
         applicationId "tv.danmaku.ijk.media.example"
-        minSdkVersion 9
+        minSdkVersion 21
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
 
         //版本名后面添加一句话，意思就是flavor dimension 它的维度就是该版本号，这样维度就是都是统一的了
         flavorDimensions "versionCode"
+
+        ndk {
+            //根据需要 自行选择添加的对应cpu类型的.so库。
+            abiFilters 'armeabi-v7a','arm64-v8a'
+//            abiFilters 'armeabi', 'armeabi-v7a', 'x86', 'mips'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -27,8 +35,8 @@ android {
         }
     }
     productFlavors {
-        all32 { minSdkVersion 9 }
-        all64 { minSdkVersion 21 }
+//        all32 { minSdkVersion 9 }
+//        all64 { minSdkVersion 21 }
         // armv5 {}
         // armv7a {}
         // arm64 { minSdkVersion 21 }
@@ -47,15 +55,20 @@ dependencies {
     compile project(':ijkplayer-java')
     compile project(':ijkplayer-exo')
 
-    all32Compile project(':ijkplayer-armv5')
-    all32Compile project(':ijkplayer-armv7a')
-    all32Compile project(':ijkplayer-x86')
+//    api('com.github.XiaoGe-1996.ijkplayer:ijkplayer-java:v1.0.0')
+//    api('com.github.XiaoGe-1996.ijkplayer:ijkplayer-armv7a:v1.0.0')
+//    api('com.github.XiaoGe-1996.ijkplayer:ijkplayer-arm64:v1.0.0')
+//    api('com.github.XiaoGe-1996.ijkplayer:ijkplayer-exo:v1.0.0')
 
-    all64Compile project(':ijkplayer-armv5')
-    all64Compile project(':ijkplayer-armv7a')
-    all64Compile project(':ijkplayer-arm64')
-    all64Compile project(':ijkplayer-x86')
-    all64Compile project(':ijkplayer-x86_64')
+//    all32Compile project(':ijkplayer-armv5')
+//    all32Compile project(':ijkplayer-armv7a')
+//    all32Compile project(':ijkplayer-x86')
+//
+//    all64Compile project(':ijkplayer-armv5')
+//    all64Compile project(':ijkplayer-armv7a')
+//    all64Compile project(':ijkplayer-arm64')
+//    all64Compile project(':ijkplayer-x86')
+//    all64Compile project(':ijkplayer-x86_64')
 
     // compile 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
     // compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.8'

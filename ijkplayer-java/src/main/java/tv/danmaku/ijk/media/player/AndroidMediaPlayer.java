@@ -247,6 +247,26 @@ public class AndroidMediaPlayer extends AbstractMediaPlayer {
     }
 
     @Override
+    public int isRecord() {
+        return 0;
+    }
+
+    @Override
+    public int startRecord(String recordVideoPath) {
+        return 0;
+    }
+
+    @Override
+    public int stopRecord() {
+        return 0;
+    }
+
+    @Override
+    public int getCurrentFrame(String saveFile) {
+        return 0;
+    }
+
+    @Override
     public void release() {
         mIsReleased = true;
         mInternalMediaPlayer.release();
