@@ -125,6 +125,8 @@
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/buffer.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/dict.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/samplefmt.h \
+ /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/hwcontext.h \
+ /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/frame.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/log.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/pixfmt.h \
  /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/rational.h \
@@ -434,6 +436,10 @@
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/dict.h:
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/samplefmt.h:
+
+/Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/hwcontext.h:
+
+/Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/frame.h:
 
 /Users/xiaoge/Desktop/Work/Android/Android_Workspace/My_WorkSpace/Java_Workspace/ijkplayerMacyasm/android/contrib/build/ffmpeg-arm64/output/include/libavutil/log.h:
 
